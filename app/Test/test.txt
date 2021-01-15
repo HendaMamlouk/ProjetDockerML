@@ -1,0 +1,6 @@
+test1 : classical
+test2 : jazz
+test3 : blues
+test4 : country
+test5 : rock
+test6 : disco

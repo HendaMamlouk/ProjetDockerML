@@ -1,0 +1,11 @@
+version: '3'
+services:
+  product-service:
+    build: ./
+    volumes:
+      - ./:/app
+    ports:
+      - 56733:80
+    environment:
+      PORT: 56733
+      FLASK_DEBUG: 1
