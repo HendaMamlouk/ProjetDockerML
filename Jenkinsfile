@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'python ./app/main3.py'
+        sh 'python ./app/views.py'
       }
       post {
         always {
