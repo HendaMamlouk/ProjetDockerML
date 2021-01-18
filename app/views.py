@@ -158,4 +158,4 @@ def test():
 
 @app.route('/template')
 def template():
-	return render_template('home.html')
+	return render_template('page1.html')
